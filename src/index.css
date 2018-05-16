@@ -45,6 +45,18 @@ ol, ul {
   flex-flow: row wrap;
   justify-content: space-between;
 }
-/* .game-info,.game-form {
-  align-self: flex-start;
-} */
+button,.input-div{
+  width: 100%;
+}
+input,label{
+  width:98.5%;
+}
+.bold-text > button{
+  font-weight: bolder;
+  background: black;
+  color:whitesmoke;
+}
+.game-info,.game-form,.game-board {
+  min-width: 40%;
+  margin: 10px;
+}
